@@ -1,0 +1,552 @@
+@media (min-device-width: 768px) and (max-device-width: 1200px ) {
+    .landing .container{
+      display: block;
+      margin-top: 20%;
+      text-align: center;
+    }
+
+    .back-img-home,
+    .back-img-home-about{
+        display: none;
+    }
+
+    .landing .text h1{
+        text-align: center;
+    }
+
+    .landing .text button{
+        margin-bottom: 10%;
+    }
+
+    .text-about{
+        margin-right: 0;
+    }
+
+    .place__container {
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+    }
+
+    .language::before{
+        content: "";
+        width: 45px;
+        border-radius: 3px;
+        height: 4px;
+        background-color: #002A72;
+        position: absolute;
+        bottom: 30px;
+        left: 2%;
+    }
+
+    
+    #image .img-home{
+        margin-right: 0;
+    }
+
+    .image{
+        margin-left:0;
+    }
+
+  .landing .text {
+    margin-right: 0;
+  }
+
+  #text-about{
+    margin-right: 0;
+  }
+
+  .brief .container .text{
+    margin-top: 0;
+  }
+
+  #image{
+    margin-top: 14%;
+  }
+
+  .landing .container #objectives h2{
+    text-align: center;
+  }
+
+  #text-about h2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .place__container-about{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+  }
+
+  .vid-about video{
+    width: 90%;
+  }
+
+  .landing .title-about h1{
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .landing .title-about p{
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-expertise #text-about {
+    margin-right: 25%;
+    word-spacing: 10px;
+    width: 350px;
+    margin-top: 5%;
+}
+
+
+
+#image .img-home{
+  margin-top: 6%;
+  margin-left: 5%;
+}
+.container {
+  width: 733px ;
+}
+
+.sec-expertise #text-about .p-business{
+  text-align: center;
+}
+
+.landing-services{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-services .back-img-home{
+  display: none;
+}
+
+.image-services .img-home{
+    margin-top: 20%;
+}
+.sec-services{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-btn{
+  display: block;
+  text-align: center;
+}
+
+.sec-btn div a button{
+  margin-top: 5%;
+}
+
+.title-service-requestserc p{
+  height: 230px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.title-service-requestserc h1{
+  width: 100%;
+  font-size: 40px;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.image-services .img-home{
+  margin-right: 0;
+}
+
+.landing .text{
+  padding-top: 25px;
+}
+
+#sec-expertise{
+  margin-top: -200px;
+}
+
+#sec-expertise-one{
+  margin-top: -290px;
+}
+  }
+
+
+
+  @media screen and (max-width: 767px){
+    .place__container {
+        grid-template-columns: repeat(1, max-content);
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .place__card{
+        text-align: center;
+        margin-left: 5%;
+    }
+    
+    .place__card img{
+        text-align: center;
+        width: 70%;
+        /* margin-right: 20%; */
+    }
+    
+    .place__card p{
+        font-size: 15px;
+        text-align: center;
+      }
+    
+      .mechanism-of-action h1{
+        font-size: 45px;
+      }
+
+      .landing .container{
+        display: block;
+        margin-top: 30%;
+    }
+
+    .image{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .landing .text button{
+        margin-top: 10%;
+    }
+
+    .image .img-home{
+        width: 70%;
+    }
+
+    .image .back-img-home,
+    .image .back-img-home-about{
+        display: none;
+    }
+
+
+    .landing .text h1,
+    .landing #text-about h2,
+    .mechanism-of-action h2,
+    .landing .container #objectives h2,
+    .brief .container .text h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .landing .text p {
+        font-size: 16px;
+        width: 100%;
+      }
+
+      #text-about{
+        margin-right: 0 !important;
+      }
+
+      #text-about h2{
+        width: 100%;
+      }
+
+      header{
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+
+    header .logo a img{
+        width: 50px;
+        height: 65px;
+    }
+
+    .open-menu{
+        display: block;
+    }
+    .navbar{display: none;}
+   
+    .close-mnuo{
+        margin-bottom: 20px;
+        text-align: left;
+        display: block;
+    }
+    .close-mnuo i {
+        font-size: 25px;
+        color: white;
+    }
+
+    .language::before{
+        content: "";
+        width: 45px;
+        border-radius: 3px;
+        height: 4px;
+        background-color: #002A72;
+        position: absolute;
+        bottom: 25px;
+        left: 2%;
+    }
+
+    
+    #image .img-home{
+        margin-right: 0;
+    }
+
+    .image{
+        margin-left:0;
+    }
+
+  .landing .text {
+    margin-right: 0;
+  }
+
+  #text-about{
+    margin-right: 0;
+  }
+
+  #img-home{
+    margin-top: 20px;
+  }
+
+  .brief .container .text h1{
+    font-size: 28px;
+  }
+
+  .brief .container .text p{
+    font-size: 16px;
+  }
+
+  .brief .container .text button,
+  #text-about button,
+  .landing .text button{
+    width: 190px;
+    font-size: 20px;
+  }
+
+
+  footer{
+    height: 537px;
+  }
+
+  footer .container-footer{
+    display: block;
+    text-align: center;
+    margin-right: 15%;
+  }
+
+  footer .container-footer .container-social{
+    margin-top: 5%;
+    margin-right: 7%;
+  }
+
+  .place__container-about{
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+  }
+
+  .vid-about video{
+    width: 100%;
+  }
+
+  .landing .title-about h1{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .landing .title-about p{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .sec-about .landing .container{
+    text-align: center;
+  }
+
+  .sec-expertise #image{
+    margin-right: 0;
+  }
+
+  .sec-expertise #text-about p,
+  .sec-expertise #text-about .p-business{
+    text-align: center;
+    word-spacing: 3.2px;
+    font-size: 20px;
+  }
+
+  #image .img-business{
+    margin-top: 25%;
+  }
+
+  .sec-expertise #text-about button {
+    width: 247px;
+    height: 55px;
+    font-size: 16px;
+}
+
+.place__card-about img{
+  width: 40%;
+}
+
+.brief-about h2{
+  font-size: 30px;
+}
+
+.sec-brief .brief-about .container .text button {
+  width: 197px;
+  height: 55px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #0288CB 0%, #002A72 100%);
+  color: white;
+  border: none;
+  font-family: Cairo;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.partners p{
+  margin-right: 0;
+}
+
+.landing-services .container{
+  margin-top: 24%;
+}
+
+.image-services .img-home{
+  margin-top: 30%;
+}
+
+.landing-services .text-services p{
+  font-size: 14px;
+}
+
+.landing-services .text-services{
+  padding-top: 5px;
+}
+
+.sec-services .landing-services .text-services h1{
+  margin-top: 25%;
+}
+
+.place__card-services div div img{
+  width: 60%;
+}
+
+.place__container-services .place__card-services div div {
+  border-radius: 50%;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
+
+.sec-btn{
+  display: block;
+  text-align: center;
+}
+
+.sec-btn div a button{
+  margin-top: 5%;
+}
+.main-content h1{
+  font-size: 47px;
+}
+
+.main-content p{
+  font-size: 26px;
+}
+
+.title-service-requestserc h1{
+  width: 100%;
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+}
+
+.title-service-requestserc p{
+  font-size: 13px;
+  height: 230px;
+  text-align: center;
+  width: 100%;
+}
+
+.service-requestserc-form form input, select{
+  max-width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+
+.service-requestserc-form form textarea,
+.input-file{
+  font-size: 15px;
+}
+
+.main-privacy-policy .main-content-privacy h1,
+.main-content-terms .main-content-privacy h1{
+  font-size: 40px;
+}
+
+.main-privacy-policy .main-content-privacy p,
+.main-content-terms .main-content-privacy p{
+  font-size: 22px;
+}
+
+.privacy-pargrf p span,
+.privacy-pargrf-2 p span{
+  font-size: 18px;
+}
+
+.privacy-pargrf p,
+.privacy-pargrf-2 p{
+  font-size: 16px;
+}
+
+.image-services .img-home{
+  margin-right: 0;
+}
+
+#sec-expertise{
+  margin-top: -200px;
+}
+
+#sec-expertise-one{
+  margin-top: -190px;
+}
+
+     
+    }
+
+    @media (max-width: 991px) {
+        .landing .text {
+          text-align: center;
+        }
+    
+        .landing .text p {
+            margin: 10px auto;
+          }
+      }
+
+        /* Small */
+        /* @media (min-width: 768px) {
+            .container {
+            width: 750px;
+            }
+        } */
+        /* Medium */
+        @media (min-width: 992px) {
+            .container {
+            width: 970px;
+            }
+        }
+        /* Large */
+        @media (min-width: 1200px) {
+            .container {
+            width: 1170px;
+            }
+        }
