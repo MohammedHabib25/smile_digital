@@ -40,7 +40,7 @@
     
       <div   class="place__container-about place__container-services container grid" >
         <!--==================== PLACES CARD 1 ====================-->
-        <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML" target="_blank">
+        <a href="" target="_blank">
           <div class="activies-img" id="place__card-work">
             <img src="{{asset('front/img/Group 267.png')}}" alt="">
             <div class="portfolio-layer"></div>
@@ -49,7 +49,7 @@
 
      
           <!--==================== PLACES CARD 1 ====================-->
-          <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML" target="_blank">
+          <a href="" target="_blank">
             <div class="activies-img" id="place__card-work">
               <img src="{{asset('front/img/Group 267.png')}}" alt="">
               <div class="portfolio-layer"></div>
