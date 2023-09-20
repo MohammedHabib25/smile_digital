@@ -1,6 +1,19 @@
 
 @extends('front.layout')
 @section('title' , '/خدماتنا')
+@section('nav')
+<div class="navbar">
+  <ul>
+   
+    <li><a href="{{route('front.index')}}" >الرئيسية</a></li>
+    <li><a href="{{route('front.about')}}">من نحن</a></li>
+    <li><a href="{{route('front.serves')}}"class="active"> خدماتنا</a></li>
+    <li><a href="{{route('work.index')}}">أعمالنا</a></li>
+    <li><a href="{{route('iteme.create')}}" class="">اطلب خدمة</a></li>
+  </ul>
+</div>
+@endsection
+
 @section('content')
 
 <section class="sec-services">

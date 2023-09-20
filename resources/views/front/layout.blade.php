@@ -25,25 +25,19 @@
         </a>
       </div>
 
-      <div class="navbar">
-        <ul>
-          <li><a href="{{route('front.index')}}" class="">الرئيسية</a></li>
-          <li><a href="{{route('front.about')}}">من نحن</a></li>
-          <li><a href="{{route('front.serves')}}"> خدماتنا</a></li>
-          <li><a href="{{route('work.index')}}">أعمالنا</a></li>
-          <li><a href="{{route('iteme.create')}}" class="">اطلب خدمة</a></li>
-        </ul>
-      </div>
+      @yield('nav')
 
       <div class="language">
+        <a href="{{route('en.index')}}">
         <span>
-          AR
+          English
           <img
             src="{{asset('front/img/icon language.png')}}"
             alt="icon language"
             class="icon-language"
           />
         </span>
+      </a>
       </div>
     </header>
 
@@ -78,17 +72,17 @@
               </div>
       
               <div class="container-social">
-                <a href="Terms.html">الشروط و الأحكام</a>
+                <a href="{{route('front.terms')}}">الشروط و الأحكام</a>
                 <br />
-                <a href="privacy policy.html">سياسة الخصوصية</a>
+                <a href="{{route('front.policy')}}">سياسة الخصوصية</a>
                 <br />
                 <br />
                 <p>تواصل معنا!</p>
                 <div class="social">
-                  <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
-                  <a href=""> <i class="fa-brands fa-twitter"></i></a>
-                  <a href=""> <i class="fa-brands fa-instagram"></i></a>
-                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://wa.me/+971562923555" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="https://x.com/smiledigitaluae " target="_blank"> <i class="fa-brands fa-twitter" target="_blank"></i></a>
+                  <a href="https://instagram.com/smiledigital.uae" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100091399484398" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 </div>
               </div>
             </div>

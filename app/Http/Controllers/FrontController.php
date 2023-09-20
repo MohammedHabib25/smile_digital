@@ -16,5 +16,21 @@ class FrontController extends Controller
     public function serves(){
         return view('front.serves');
     }
+    public function policy(){
+        return view('front.policy');
+    }
+    
+    public function terms(){
+        return view('front.terms');
+    }
+    public function graf(){
+        return view('work.graf');
+    }
+    public function prog(){
+        return view('work.prog');
+    }
+    public function mark(){
+        return view('work.mark');
+    }
     
 }

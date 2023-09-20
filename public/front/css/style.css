@@ -111,7 +111,7 @@ header ul li a:hover{
 
 .language::before{
     content: "";
-    width: 45px;
+    width: 65px;
     border-radius: 3px;
     height: 4px;
     background-color: #002A72;
@@ -537,6 +537,13 @@ header ul li a:hover{
   text-align: justify;
   color: rgba(0, 0, 0, 1);
 }
+.sec-expertise #text-about .p-businesss{
+  font-size: 25px;
+  word-spacing: 5.2px;
+  line-height: 45px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 1);
+}
 
 
 
@@ -755,6 +762,15 @@ text-align: center;
   text-align: center;
   color: rgba(0, 42, 114, 1);
 }
+.place__card-services h4{
+  font-family: Cairo;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(0, 42, 114, 1);
+}
 
 .place__card-services button{
   width: 170px;
@@ -880,8 +896,8 @@ text-align: center;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 295px;
+  height: 264px;
   background: linear-gradient(180deg, rgba(0, 42, 114, 0.24) 0%, #002A72 90.29%);
 
   display: flex;
@@ -930,6 +946,17 @@ margin-top: 20%;
   height: 83px;
   color: rgba(0, 42, 114, 1);
 }
+.title-service-requestsercc h1{
+  font-family: Cairo;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 449px;
+  height: 83px;
+  color: rgba(0, 42, 114, 1);
+}
 
 .title-service-requestserc p{
   width: 90%;
@@ -962,6 +989,22 @@ margin-top: 20%;
   color: rgba(0, 42, 114, 1);
   background-color: rgba(242, 242, 242, 1);
 }
+.service-requestsercc-form form input,
+.service-requestsercc-form form textarea,.input-file,select{
+  display: block;
+  width: 90%;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(0, 42, 114, 1);
+  font-family: Cairo;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 34px;
+  padding: 10px 25px;
+  color: rgba(0, 42, 114, 1);
+  background-color: rgba(242, 242, 242, 1);
+}
 
 .service-requestserc-form form input[type=submit]{
   background-color: rgba(0, 42, 114, 1) !important;
@@ -969,8 +1012,17 @@ margin-top: 20%;
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
+.service-requestsercc-form form input[type=submit]{
+  background-color: rgba(0, 42, 114, 1) !important;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
 
 .service-requestserc-form form input[type=file]{
+  cursor: pointer;
+}
+.service-requestsercc-form form input[type=file]{
   cursor: pointer;
 }
 .input-file{
@@ -991,7 +1043,14 @@ margin-top: 20%;
   width: 90%;
   margin: 100px auto;  
 }
+.privacyy-content{
+  width: 90%;
+  margin: 100px auto;  
+}
 .privacy-pargrf{
+  margin-bottom: 50px;
+}
+.privacyy-pargrf{
   margin-bottom: 50px;
 }
 .privacy-pargrf p {
@@ -999,22 +1058,41 @@ margin-top: 20%;
   text-align: justify;
   margin-bottom: 30px;
 }
-.privacy-pargrf p span{
+.privacyy-pargrf p {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.privacyy-pargrf p span{
 display: block;
 margin-bottom: 25px;
 font-size: 25px;
 font-weight: 700;
+text-align: left;
 }
 
 
 .privacy-content-2{
   width: 90%;
-  margin: 100px auto;  
+  margin: 150px auto;  
+}
+.privacyy-content-2{
+  width: 90%;
+  margin: 150px auto;  
 }
 .privacy-pargrf-2{
   margin-bottom: 50px;
 }
+.privacyy-pargrf-2{
+  margin-bottom: 50px;
+}
 .privacy-pargrf-2 p {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.privacyy-pargrf-2 p {
   font-size: 20px;
   text-align: justify;
   margin-bottom: 30px;
@@ -1025,6 +1103,30 @@ margin-bottom: 25px;
 font-size: 25px;
 font-weight: 700;
 
+
+}
+.privacyy-pargrf-2 p span{
+display: block;
+margin-bottom: 25px;
+font-size: 25px;
+font-weight: 700;
+
+
+}
+.privacyy-pargrf-2{
+  margin-bottom: 50px;
+}
+.privacyy-pargrf-2 p {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.privacyy-pargrf-2 p span{
+display: block;
+margin-bottom: 25px;
+font-size: 25px;
+font-weight: 700;
+text-align: left;
 
 }
 

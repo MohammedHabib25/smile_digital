@@ -69,7 +69,13 @@
           
             <li class="nav-item">
               <a class="nav-link" href="{{ route('iteme.index') }}">
-                <span class="menu-title">Request serves</span>
+                <span class="menu-title">Request serves Ar</span>
+                <i class="mdi   mdi-home menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('additor.index') }}">
+                <span class="menu-title">Request serves En</span>
                 <i class="mdi   mdi-home menu-icon"></i>
               </a>
             </li>
@@ -81,14 +87,14 @@
                 </a>
                 <div class="collapse" id="general-pages">
                   <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href=""> Create project </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{route('work.create')}}"> Create project </a></li>
                     
                    
                   </ul>
                 </div>
                 <div class="collapse" id="general-pages">
                   <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href=""> View project </a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{route('work.index')}}"> View project </a></li>
                     
                    
                   </ul>
@@ -101,12 +107,12 @@
                 <i class="mdi  mdi-comment-check menu-icon"></i>
               </a>
             </li>
-            <li class="nav-item">
+           {{--  <li class="nav-item">
               <a class="nav-link" href="{{ route('product.create') }}">
                 <span class="menu-title">Add Serves</span>
                 <i class="mdi  mdi mdi-plus-box menu-icon"></i>
               </a>
-            </li>
+            </li> --}}
               </span>
             </li>
           </ul>

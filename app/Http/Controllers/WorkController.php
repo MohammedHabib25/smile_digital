@@ -12,8 +12,8 @@ class WorkController extends Controller
      */
     public function index()
     {
-        $work  =  Work::all();
-        return view('front.worke', compact('work'));    }
+       
+        return view('work.index');    }
 
     /**
      * Show the form for creating a new resource.

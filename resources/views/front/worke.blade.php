@@ -1,6 +1,18 @@
 
 @extends('front.layout')
 @section('title' , '/طلب خدمة')
+@section('nav')
+<div class="navbar">
+  <ul>
+   
+    <li><a href="{{route('front.index')}}" >الرئيسية</a></li>
+    <li><a href="{{route('front.about')}}">من نحن</a></li>
+    <li><a href="{{route('front.serves')}}"> خدماتنا</a></li>
+    <li><a href="{{route('work.index')}}" class="active">أعمالنا</a></li>
+    <li><a href="{{route('iteme.create')}}" class="">اطلب خدمة</a></li>
+  </ul>
+</div>
+@endsection
 @section('content')
 
 <!-- seaction main -->
@@ -68,7 +80,7 @@
       <div class="text">
         <h2>  هل تحتاج مشروع ناجح؟</h2>
 
-        <a href="services.html"> <button>اطلب الان</button></a>
+        <a href="{{route('iteme.create')}}"> <button>اطلب الان</button></a>
       </div>
     </div>
   </div>
